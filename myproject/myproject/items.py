@@ -13,3 +13,6 @@ class MyprojectItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
+    content = scrapy.Field()
+# class Page(scrapy.Item):
+#     content = scrapy.Field()
