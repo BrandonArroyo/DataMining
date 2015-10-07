@@ -11,8 +11,12 @@ import scrapy
 class MyprojectItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
-    link = scrapy.Field()
-    content = scrapy.Field()
+    claim = scrapy.Field()
+    status = scrapy.Field()
+    origin = scrapy.Field()
+    sourceA = scrapy.Field()
+    sourceB = scrapy.Field()
+
+
 # class Page(scrapy.Item):
 #     content = scrapy.Field()
